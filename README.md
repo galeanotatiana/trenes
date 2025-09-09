@@ -8,7 +8,10 @@ Script que analiza un grafo de todas las estaciones de trenes activas de Buenos 
 Este proyecto está en **desarrollo**.
 
 # Ejemplos de uso
+- Dessde La Plata hacia Lobos:
 ![Ejemplo La Plata - Lobos](/screenshots/ejemplo-1.png)
+
+- Desde Retiro hacia Constitucion: informa que no hay conexión mediante tren.
 ![Ejemplo Constitucion - Retiro](/screenshots/ejemplo-2.png)
 
 ---
