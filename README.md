@@ -8,8 +8,8 @@ Script que analiza un grafo de todas las estaciones de trenes activas de Buenos 
 Este proyecto está en **desarrollo**.
 
 # Ejemplos de uso
-- Dessde La Plata hacia Lobos:
-![Ejemplo La Plata - Lobos](/screenshots/ejemplo-1.png)
+- Desde Claypole hacia Once:
+![Ejemplo Claypole - Once](/screenshots/ejemplo-1.png)
 
 - Desde Retiro hacia Constitucion: informa que no hay conexión mediante tren.
 ![Ejemplo Constitucion - Retiro](/screenshots/ejemplo-2.png)
@@ -21,11 +21,13 @@ Este proyecto está en **desarrollo**.
 - Ramales de larga distancia aún no incorporados.
 - Los nombres de muchas estaciones están abreviados por simplicidad.
 - El archivo .dot es un grafo dirigido, aunque el programa **lo interpreta como no dirigido**. De esta forma se pueden hacer los recorridos en ambos sentidos.
+- Marcos Paz es la única estación que tiene homónimo en dos lineas, pero están escritas por separado:
+  marcos paz (DFS) -> Linea Sarmiento
+  marcos paz (LBS) -> Linea Belgrano Sur
+  Esto se debe a que son homónimos pero geográficamente sus estaciones son distintas. No es estación de combinación.
 
 # Dependencias
 - Python 3.12.3
 - Graphviz 
 - PyGraphviz (`pip install pygraphviz`)  
 - NetworkX (`pip install networkx`)
-
-
