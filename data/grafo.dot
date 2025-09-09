@@ -1,0 +1,82 @@
+digraph G {
+    rankdir=LR;
+
+  {rank=same; "constitucion"; "once"; "retiro"; "dr saenz"; "av maipu"; }
+    
+## LINEA ROCA (TAO)
+    ## ramal constitucion - chascomus
+    "constitucion" -> "h yrigoyen" -> "santillan kosteki" -> "gerli" -> "lanus" -> "remedios de escalada" -> "banfield" -> "lomas de zamora" -> "temperley" -> "adrogue" -> "burzaco" -> "longchamps" -> "glew" -> "guernica" -> "korn" -> "domselaar" -> "brandsen" -> "jeppener" -> "altamirano" -> "gandara" -> "chascomus"
+    ## ramal temperley - haedo 
+    "temperley" -> "hospital español" -> "santa catalina" -> "juan XXII" -> "km 34" -> "p.p. turner" -> "de elia" -> "tablada" -> "san justo" -> "ing. brian" -> "haedo"
+    ## ramal constitucion - ezeiza - cañuelas
+    "temperley" -> "turdera" -> "llavallol" -> "luis guillon" -> "monte grande" -> "el jaguel" -> "ezeiza" -> "u. ferroviaria" -> "tristan suarez" -> "spegazzini" -> "maximo paz" -> "vicente casares" -> "a. petion" -> "kloosterman" -> "r. levene" -> "cañuelas"
+    ## ramal temperley - monte
+    "temperley" -> "turdera" -> "llavallol" -> "monte grande" -> "ezeiza" -> "tristan suarez" -> "vicente casares" -> "r. levene" -> "hospital cuenca alta" -> "cañuelas" -> "la noria" -> "abbott" -> "km 105" -> "monte"
+    ## ramal constitucion - bosques - quilmes
+    "constitucion" -> "santillan kosteki" -> "sarandi" -> "villa dominico" -> "wilde" -> "don bosco" -> "bernal" -> "quilmes" -> "ezpeleta" -> "berazategui" -> "villa españa" -> "ranelagh" -> "sourigues" -> "bosques"
+    ## ramal constitucion - gutierrez - temperley
+    "constitucion" -> "santillan kosteki" -> "lanus" -> "banfield" -> "lomas de zamora" -> "temperley" -> "marmol" -> "r. calzada" -> "claypole" -> "ardigo" -> "florencio varela" -> "zeballos" -> "bosques" -> "santa sofia" -> "gutierrez"
+    ## ramal constitucion - la plata
+    "constitucion" -> "santillan kosteki" -> "sarandi" -> "villa dominico" -> "wilde" -> "don bosco" -> "bernal" -> "quilmes" -> "ezpeleta" -> "berazategui" -> "platanos" -> "hudson" -> "pereyra" -> "villa elisa" -> "city bell" -> "gonnet" -> "ringuelet" -> "tolosa" -> "la plata"
+    ## ramal cañuelas lobos
+    "cañuelas" -> "uribelarrea" -> "empalme lobos" -> "lobos"
+    ## ramal unlp
+    "la plata" -> "unlp arquitectura" -> "unlp informatica" -> "unlp medicina" -> "unlp periodismo" -> "diagonal 73" -> "policlinico" -> "avenida 7" -> "circunvalacion" -> "meridiano V" -> "htal. san juan de dios"
+
+## LINEA SARMIENTO (TAO)
+    ## ramal once moreno
+    "once" -> "caballito" -> "flores" -> "floresta" -> "villa luro" -> "liniers" -> "ciudadela" -> "ramos mejia" -> "haedo" -> "moron" -> "castelar" -> "ituzaingo" -> "padua" -> "merlo" -> "paso del rey" -> "moreno"
+    ## ramal merlo lobos
+    "merlo" -> "km 34,5" -> "ferrari" -> "mariano acosta" -> "maquinista r. cal" -> "marcos paz (DFS)" -> "zamudio" -> "hornos" -> "las heras" -> "speratti" -> "zapiola" -> "empalme lobos" -> "lobos"
+    ## ramal moreno mercedes
+    "moreno" -> "la reja" -> "francisco alvarez" -> "ing marin" -> "las malvinas" -> "gral rodriguez" -> "la fraternidad" -> "lezica y torrezuri" -> "univ. lujan" -> "lujan" -> "jauregui" -> "olivera" -> "gowland" -> "mercedes"
+
+## LINEA MITRE (TAO)
+    ## ramal retiro - zarate
+    "retiro" -> "3 de febrero" -> "carranza" -> "colegiales" -> "belgrano r." -> "drago" -> "urquiza" -> "pueyrredon" -> "miguelete" -> "san martin" -> "san andres" -> "malaver" -> "villa ballester" -> "bancalari" -> "pacheco" -> "benavidez" -> "maschwitz" -> "escobar" -> "rio lujan" -> "otamendi" -> "campana" -> "km 83" -> "zarate"
+    ## ramal retiro -j.l.suarez
+    "retiro" -> "3 de febrero" -> "carranza" -> "colegiales" -> "belgrano r." -> "drago" -> "urquiza" -> "pueyrredon" -> "miguelete" -> "san martin" -> "san andres" -> "malaver" -> "villa ballester" -> "chilavert" -> "j. l. suarez"
+    ## ramal retiro - b. mitre
+    "retiro" -> "3 de febrero" -> "carranza" -> "colegiales" -> "belgrano r." -> "coghlan" -> "saavedra" -> "j. b. justo" -> "florida" -> "cetrangolo" -> "b. mitre"
+    ## ramal retiro - capilla del señor
+    "retiro" -> "lisandro de la torre" -> "belgrano c" -> "nuñez" -> "rivadavia" -> "vicente lopez" -> "olivos" -> "la lucila" -> "martinez" -> "acassuso" -> "san isidro" -> "beccar" -> "victoria" -> "schweitzer" -> "el talar" -> "lopez camelo" -> "garin" -> "maq. savio" -> "matheu" -> "zelaya" -> "los cadales" -> "capilla del señor"
+    ## ramal retiro - tigre
+    "retiro" -> "lisandro de la torre" -> "belgrano c" -> "nuñez" -> "rivadavia" -> "vicente lopez" -> "olivos" -> "la lucila" -> "martinez" -> "acassuso" -> "san isidro" -> "beccar" -> "victoria" -> "virreyes" -> "san fernando" -> "carupa" -> "tigre"
+
+## LINEA SAN MARTIN (TAO)
+    ## ramal retiro - cabred
+    "retiro" -> "palermo" -> "villa crespo" -> "la paternal" -> "villa del parque" -> "devoto" -> "saenz peña" -> "santos lugares" -> "caseros" -> "el palomar" -> "hurlingham" -> "w. c. morris" -> "bella vista" -> "muñiz" -> "san miguel" -> "jose c paz" -> "sol y verde" -> "derqui" -> "villa astolfi" -> "pilar" -> "manzanares" -> "dr cabred"
+
+## LINEA BELGRANO SUR (TAO)
+    ## ramal saenz - lozano
+    "dr saenz" -> "villa soldati" -> "presidente illia" -> "lugano" -> "villa madero" -> "marinos del fournier" -> "tapiales" -> "ing. castello" -> "querandi" -> "laferrere" -> "eva duarte" -> "independencia" -> "g. catan" -> "20 de junio" -> "marcos paz (LBS)" -> "villars" -> "lozano"
+    ## ramal saenz - km 12
+    "dr saenz" -> "villa soldati" -> "presidente illia" -> "lugano" -> "villa madero" -> "marinos del fournier" -> "tapiales" -> "ing. castello" -> "km 12"
+    ## ramal saenz - marinos
+    "dr saenz" -> "villa soldati" -> "presidente illia" -> "lugano" -> "villa madero" -> "marinos del fournier" -> "tapiales" -> "aldo bonzi" -> "mendeville" -> "jose ingenieros" -> "j. villegas" -> "isidro casanova" -> "rafael castillo" -> "merlo gomez" -> "libertad" -> "marinos belgrano"
+    ## ramal tomas jofre - mercedes (interrumpido)
+    "tomas jofre" -> "altamira" -> "mercedes"
+## TREN DE LA COSTA (TAO)
+    "av maipu" -> "borges" -> "libertador" -> "anchorena" -> "las barrancas" -> "san isidro r" -> "punta chica" -> "marina nueva" -> "san fernando" -> "canal san fernando" -> "delta"
+
+## LINEA BELGRANO NORTE (FERROVIAS)
+    "retiro" -> "saldias" -> "ciudad universitaria" -> "a. del valle" -> "m. m. padilla" -> "florida" -> "munro" -> "carapachay" -> "villa adelina" -> "boulogne" -> "v. a. montes" -> "don torcuato" -> "ing sourdeaux" -> "villa de mayo" -> "los polvorines" -> "ing nogues" -> "grand bourg" -> "tierras altas" -> "tortuguitas" -> "m. alberti" -> "del viso" -> "villa rosa"
+    
+## LINEA URQUIZA (METROVIAS)
+    "federico lacroze" -> "jose artigas" -> "pedro arata" -> "doctor f. beiro" -> "el libertador" -> "antonio devoto" -> "coronel lynch" -> "fernandez moreno" -> "lourdes" -> "tropezon" -> "bosch" -> "martin coronado" -> "pablo podesta" -> "jorge newbery" -> "ruben dario" -> "ejercito de los andes" -> "juan b. de la salle" -> "sargento barrufaldi" -> "capitan lozano" -> "teniente agneta" -> "campo de mayo" -> "sargento cabral" -> "lemos"
+
+### LARGA DISTANCIA SOLO BUENOS AIRES
+# (los excluyo por ahora porque interfieren con algunos recorridos urbanos)
+    ## constitucion - mar del plata
+    ## "constitucion" -> "cnel. brandsen" -> "chascomus" -> "lezama" -> "castelli" -> "sevigne" -> "dolores" -> "gral. guido" -> "maipu" -> "las armas" -> "gral piran" -> "cnel. vidal" -> "vivorata" -> "mar del plata"
+
+    ## constitucion - pinamar (interrumpido)
+    ## "constitucion" -> "dolores" -> "gral. guido" -> "santo domingo" -> "gral madariaga" -> "pinamar"
+    
+    ## once - bragado
+    ## "once" -> "haedo" -> "lujan" -> "mercedes" -> "suipacha" -> "chivilcoy" -> "a. vaccarezza" -> "mechita" -> "bragado"
+    
+    ## retiro - junin
+    ## "retiro" -> "jose c paz" -> "pilar" -> "mercedes p" -> "franklin" -> "rivas" -> "castilla" -> "rawson" -> "cucha cucha" -> "o' higgins" -> "junin"
+}
+
