@@ -7,6 +7,7 @@ Script que analiza un grafo de todas las estaciones de trenes activas de Buenos 
 # Estado del proyecto
 Este proyecto está en **desarrollo**.
 Aún no cuenta con horarios, tiempo de viaje ni interfaz.
+Ramales de larga distancia aún no incorporados.
 
 # Ejemplos de uso
 -
