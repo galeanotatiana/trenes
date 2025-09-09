@@ -6,11 +6,18 @@ Script que analiza un grafo de todas las estaciones de trenes activas de Buenos 
 
 # Estado del proyecto
 Este proyecto está en **desarrollo**.
-Aún no cuenta con horarios, tiempo de viaje ni interfaz.
-Ramales de larga distancia aún no incorporados.
 
 # Ejemplos de uso
--
+![Ejemplo La Plata - Lobos](/screenshots/ejemplo-1.png)
+![Ejemplo Constitucion - Retiro](/screenshots/ejemplo-2.png)
+
+---
+
+# Notas
+- Aún no cuenta con horarios, tiempo de viaje ni interfaz.
+- Ramales de larga distancia aún no incorporados.
+- Los nombres de muchas estaciones están abreviados por simplicidad.
+- El archivo .dot es un grafo dirigido, aunque el programa **lo interpreta como no dirigido**. De esta forma se pueden hacer los recorridos en ambos sentidos.
 
 # Dependencias
 - Python 3.12.3
